@@ -1,5 +1,4 @@
 # Taps
-tap 'homebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 
 # Binaries
@@ -18,7 +17,7 @@ cask 'telegram-desktop'
 cask 'docker'
 cask 'github'
 cask 'slack'
-cask 'homebrew/cask-versions/visual-studio-code-insiders
+cask 'homebrew/cask-versions/visual-studio-code-insiders'
 
 # Development
 cask 'miniconda'
