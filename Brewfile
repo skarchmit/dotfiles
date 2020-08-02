@@ -24,10 +24,3 @@ cask 'telegram'
 
 # Development
 cask 'miniconda'
-
-# quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'qlstephen'
-cask 'quicklook-csv'
-cask 'quicklook-json'
