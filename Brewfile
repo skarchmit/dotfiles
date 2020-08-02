@@ -9,6 +9,8 @@ brew 'mas' # Mac App Store Manager
 brew 'tree'
 brew 'zsh-completions' 
 brew 'zsh'
+brew 'unixodbc'
+brew 'msodbcsql17'
 
 # Apps
 cask '1password'
