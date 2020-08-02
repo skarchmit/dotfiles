@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Ask for the administrator password upfront
-sudo -v
-
 echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
@@ -11,8 +8,8 @@ if test ! $(which brew); then
 fi
 
 # allow admins to manage homebrew's local install directory
-chgrp -R admin /usr/local/*
-chmod -R g+w /usr/local/*
+sudo chgrp -R admin /usr/local/*
+sudo chmod -R g+w /usr/local/*
 
 # Update Homebrew recipes
 brew update
