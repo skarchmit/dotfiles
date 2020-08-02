@@ -25,6 +25,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # initialize conda environment
+# see Brewfile
 conda init "$(basename "${SHELL}")"
 
 # Set macOS preferences
