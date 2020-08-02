@@ -20,3 +20,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+ZSH_DISABLE_COMPFIX = true
+
+source $ZSH/oh-my-zsh.sh
