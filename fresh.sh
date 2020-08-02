@@ -19,6 +19,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Remove outdated versions from the cellar.
+brew cleanup
+
 # Clone Github repositories
 # ./clone.sh
 
