@@ -7,6 +7,10 @@ if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# allow admins to manage homebrew's local install directory
+chgrp -R admin /usr/local/*
+chmod -R g+w /usr/local/*
+
 # Update Homebrew recipes
 brew update
 
