@@ -13,7 +13,7 @@ brew 'tree'
 # Apps
 cask '1password'
 cask 'alfred'
-cask 'telegram-desktop'
+cask 'telegram'
 cask 'docker'
 cask 'github'
 cask 'slack'
