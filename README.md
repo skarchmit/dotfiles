@@ -21,7 +21,7 @@ First, go through the checklist below to make sure you didn't forget anything be
 git clone git@github.com:skarchmit/dotfiles.git ~/.dotfiles
 ```
 6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
-7. Run `fresh.sh` to start the installation
+7. Run `bash ~/.dotfiles/fresh.sh` to start the installation
 8. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
 9. Restart your computer to finalize the process
 
