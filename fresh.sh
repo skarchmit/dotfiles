@@ -8,8 +8,9 @@ if test ! $(which brew); then
 fi
 
 # allow admins to manage homebrew's local install directory
-sudo chgrp -R admin /usr/local/*
-sudo chmod -R g+w /usr/local/*
+# this may cause problems
+# sudo chgrp -R admin /usr/local/*
+# sudo chmod -R g+w /usr/local/*
 
 # Update Homebrew recipes
 brew update
