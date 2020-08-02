@@ -18,6 +18,7 @@ cask 'docker'
 cask 'github'
 cask 'slack'
 cask 'homebrew/cask-versions/visual-studio-code-insiders'
+cask 'contexts'
 
 # Development
 cask 'miniconda'
