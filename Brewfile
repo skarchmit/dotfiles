@@ -6,19 +6,19 @@ brew 'git'
 brew 'grep'
 brew 'mackup'
 brew 'mas' # Mac App Store Manager
-brew 'zsh'
-brew 'zsh-completions' 
 brew 'tree'
+brew 'zsh-completions' 
+brew 'zsh'
 
 # Apps
 cask '1password'
 cask 'alfred'
-cask 'telegram'
+cask 'contexts'
 cask 'docker'
 cask 'github'
-cask 'slack'
 cask 'homebrew/cask-versions/visual-studio-code-insiders'
-cask 'contexts'
+cask 'slack'
+cask 'telegram'
 
 # Development
 cask 'miniconda'
@@ -26,6 +26,6 @@ cask 'miniconda'
 # quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
 cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
