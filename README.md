@@ -17,6 +17,9 @@ First, go through the checklist below to make sure you didn't forget anything be
 3. Install macOS Command Line Tools by running `xcode-select --install`
 4. [Generate a new public and private SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and add them to Github
 5. Clone this repo to `~/.dotfiles`
+```shell
+git clone git@github.com:skarchmit/dotfiles.git ~/.dotfiles
+```
 6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
 7. Run `fresh.sh` to start the installation
 8. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
