@@ -1,8 +1,8 @@
-export DOTFILES=$HOME/.dotfiles
+# export DOTFILES=$HOME/.dotfiles
 
 export ZSH=$HOME/.oh-my-zsh
 
-$ZSH_CUSTOM=$DOTFILES
+# $ZSH_CUSTOM=$DOTFILES
 
 plugins=(git zsh-syntax-highlighting)
 

@@ -7,4 +7,4 @@ alias cenv='conda env update -f environment.yml'
 alias gbra="git checkout master && git branch | grep -v "master" | xargs git branch -D"
 
 # delete local branches that dont exist in remote
-alias gbr=git remote prune origin  
+alias gbr="git remote prune origin"

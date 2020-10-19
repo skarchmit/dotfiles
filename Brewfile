@@ -22,6 +22,11 @@ cask 'iTerm2'
 cask 'homebrew/cask-versions/visual-studio-code-insiders'
 cask 'slack'
 cask 'telegram'
+cask 'insomnia'
+cask 'nightowl' 
 
 # Development
 cask 'miniconda'
+
+# Shell
+brew 'romkatv/powerlevel10k/powerlevel10k'
