@@ -1,4 +1,5 @@
 alias cpy='conda activate base && python'
+alias jpy='conda activate base && jupyter notebook'
 alias ls='ls -lashG'
 alias code='code-insiders'
 alias cenv='conda env update -f environment.yml'
