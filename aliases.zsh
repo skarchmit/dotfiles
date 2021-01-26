@@ -9,3 +9,6 @@ alias gbra="git checkout master && git branch | grep -v "master" | xargs git bra
 
 # delete local branches that dont exist in remote
 alias gbr="git remote prune origin"
+alias gitpurge=""
+alias cli="python datascience/cli.py"
+alias pypurge='find . | grep -E "(__pycache__|\.pytest_cache|\.coverage|\.pyc|\.pyo$)" | xargs rm -rf'
